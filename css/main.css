@@ -86,19 +86,10 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
-.header {
-  overflow: hidden;
-  background-color: #0F36AB;
-  padding: 30px 10px;
+header{
+  background-color: sandybrown;
 }
-.header a {
-  color: black;
-  padding: 12px;
-  text-decoration: none;
-  font-size: 26px; 
-  line-height: 25px;
-  padding-right:60px ;
+
 
 /* ==========================================================================
    Helper classes
