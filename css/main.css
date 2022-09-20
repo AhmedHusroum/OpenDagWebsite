@@ -88,6 +88,12 @@ textarea {
    ========================================================================== */
 header{
   background-color: sandybrown;
+  color: darkgreen;
+  padding: 2px;
+}
+body{
+  margin: 0;
+
 }
 
 
