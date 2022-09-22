@@ -93,9 +93,16 @@ header{
 }
 body{
   margin: 0;
+}
+.leerJaar{
+  background-color: sandybrown;
+  color: darkgreen;
+  border: solid;
+  
+
+
 
 }
-
 
 /* ==========================================================================
    Helper classes
