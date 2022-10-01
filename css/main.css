@@ -94,10 +94,14 @@ header{
 }
 
 header a{
-  display: flex;
+  
   float: right;
-  width: 100px;
+  float: right;
+  width: 190px;
   margin-top: 30px;
+  font-size: 30px;
+  color: black;
+  text-decoration: none;
 
 }
 
@@ -106,8 +110,33 @@ header h1{
   justify-content: center;
   align-content: center;
   margin-top: 300px;
+  font-size: 100px;
+  color: black;
+
+}
+header h3{
+  margin-top: 0px;
+
+  font-size: 100px;
+  color: black;
 }
 
+.img{
+
+  display: flex;
+  justify-content: center;
+  height: 850px;
+ border-radius: 10px;
+
+}
+@media screen and (max-width: 1000px){
+  .img{
+    height: 300px;
+   
+    
+
+  }
+}
 footer{
   height: 60px;
   display: flex;
@@ -116,13 +145,75 @@ footer{
 body{
   margin: 0;
 }
-.leerJaar{
+
+.schoolJaar h1{
+
+  margin-top: 600px;
+  margin-left: 10px ;
   background-color: sandybrown;
-  color: darkgreen;
-  border: solid;
-  display: flex;
+  width: 25%;
+  font-size: 60px;
+  padding: 10px;
+  border-radius: 30px;
+
 
 }
+.schoolJaar{
+  display: flex;
+}
+
+.schoolJaar img{
+  width: 500px;
+  margin-top: 500px;
+  margin-right: 50px;
+
+}
+@media screen and (max-width: 900px){
+  .schoolJaar img{
+    height: 500;
+    display: none;
+  }
+}
+.schoolJaar p{
+  width: 50%;
+font-size: 30px;
+  margin-left:10px ;
+  border-bottom: solid;
+}
+@media screen and (max-width: 900px){
+  .schoolJaar img{
+    width: 80%;
+  }
+}
+.docenten{
+  float: right;
+  margin-top: 0px;
+  margin-right: 10px;
+  width: 25%;
+  padding: 11px;
+  font-size: 20px;
+  border-radius: 30px;
+
+}
+.docenten h1{
+  background-color: sandybrown;
+  border-radius: 30px;
+  padding: 11px;
+}
+.docenten img{
+  float: left;
+  display: flex;
+}
+@media screen and (max-width: 900px){
+  .docenten{
+    width: 80%;
+  }
+}
+
+
+  
+
+
 
 /* ==========================================================================
    Helper classes
